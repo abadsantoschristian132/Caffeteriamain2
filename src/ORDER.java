@@ -149,6 +149,7 @@ public class ORDER extends javax.swing.JFrame {
                 "Product", "Price", "Total"
             }
         ));
+        jTable1.setGridColor(new java.awt.Color(255, 255, 102));
         jScrollPane1.setViewportView(jTable1);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 400, 270));
@@ -206,7 +207,7 @@ public class ORDER extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 450, 190, 40));
 
         jButton5.setFont(new java.awt.Font("Sitka Heading", 2, 24)); // NOI18N
-        jButton5.setText("CANCEL");
+        jButton5.setText("RESET");
         jButton5.setContentAreaFilled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -264,7 +265,7 @@ public class ORDER extends javax.swing.JFrame {
                 model.addRow(new Object[]{productName, price, total});
              
 
-                // Clear fields
+                
                 
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid Coffee number (1-5)");
@@ -288,7 +289,7 @@ public class ORDER extends javax.swing.JFrame {
                 model.addRow(new Object[]{productName, price, total});
                 JOptionPane.showMessageDialog(this, "Please put your cash to Proceed");
 
-                // Clear fields
+               
                 
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid Tea number (6-10)");
