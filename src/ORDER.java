@@ -66,30 +66,30 @@ public class ORDER extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 420, 150, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 420, 150, -1));
 
         jLabel10.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("ORDER");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 90, 20));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, 90, 20));
 
         jLabel6.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Coffee(1-5)");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 90, 20));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 90, 20));
 
         jTextField1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 90, 30));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 90, 30));
 
         jLabel11.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("QUANTITY");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 70, -1, 20));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, -1, 20));
 
         jTextField2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
@@ -99,35 +99,35 @@ public class ORDER extends javax.swing.JFrame {
                 jTextField2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 90, 30));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 90, 30));
 
         jLabel5.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("ORDER");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 90, 20));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 90, -1));
 
         jTextField3.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(0, 0, 0));
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 90, 30));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 90, 30));
 
         jLabel7.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("Tea(5-6)");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 90, 20));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 90, 20));
 
         jLabel4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("QUANTITY");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, -1, 20));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, 90, -1));
 
         jTextField4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(0, 0, 0));
         jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 190, 90, 30));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 90, 30));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
@@ -137,7 +137,7 @@ public class ORDER extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 130, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 130, -1));
 
         jTable1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTable1.setForeground(new java.awt.Color(0, 0, 0));
@@ -151,12 +151,12 @@ public class ORDER extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 30, 400, 270));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 400, 270));
 
         jTextField5.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField5.setForeground(new java.awt.Color(0, 0, 0));
         jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 110, 30));
+        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 110, 30));
 
         jTextField7.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField7.setForeground(new java.awt.Color(0, 0, 0));
@@ -262,7 +262,7 @@ public class ORDER extends javax.swing.JFrame {
 
                 // Add to table
                 model.addRow(new Object[]{productName, price, total});
-              
+             
 
                 // Clear fields
                 jTextField1.setText("");
@@ -287,7 +287,7 @@ public class ORDER extends javax.swing.JFrame {
                   
                 // Add to table
                 model.addRow(new Object[]{productName, price, total});
-                
+                JOptionPane.showMessageDialog(this, "Please put your cash to Proceed");
 
                 // Clear fields
                 jTextField3.setText("");
@@ -295,6 +295,9 @@ public class ORDER extends javax.swing.JFrame {
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid Tea number (6-10)");
             }
+            
+                
+                
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -321,7 +324,7 @@ public class ORDER extends javax.swing.JFrame {
         int cash = Integer.parseInt(cashStr);
 
         // Compute tax (0.12% of grand total)
-        double tax = grandTotal * 0.0012;
+        double tax = grandTotal * 00.0012;
 
         // Compute subtotal (grand total + tax)
         double subtotal = grandTotal + tax;
@@ -338,6 +341,7 @@ public class ORDER extends javax.swing.JFrame {
         // Display results
         jTextField6.setText("" + String.format("%.2f", change));
         jTextField7.setText("" + String.format("%.2f", subtotal));
+         JOptionPane.showMessageDialog(this, "Interested? if YES click CONFIRM ORDER");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
