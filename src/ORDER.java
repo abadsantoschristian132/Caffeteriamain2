@@ -89,7 +89,7 @@ public class ORDER extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("QUANTITY");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, -1, 20));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, -1, 20));
 
         jTextField2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 0, 0));
@@ -115,14 +115,14 @@ public class ORDER extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("Tea(5-6)");
+        jLabel7.setText("Tea(6-10)");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 90, 20));
 
         jLabel4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("QUANTITY");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, 90, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 90, -1));
 
         jTextField4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(0, 0, 0));
@@ -265,8 +265,7 @@ public class ORDER extends javax.swing.JFrame {
              
 
                 // Clear fields
-                jTextField1.setText("");
-                jTextField2.setText("");
+                
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid Coffee number (1-5)");
             }
@@ -290,8 +289,7 @@ public class ORDER extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Please put your cash to Proceed");
 
                 // Clear fields
-                jTextField3.setText("");
-                jTextField4.setText("");
+                
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid Tea number (6-10)");
             }
@@ -324,7 +322,7 @@ public class ORDER extends javax.swing.JFrame {
         int cash = Integer.parseInt(cashStr);
 
         // Compute tax (0.12% of grand total)
-        double tax = grandTotal * 00.0012;
+        double tax = grandTotal * 00.00012;
 
         // Compute subtotal (grand total + tax)
         double subtotal = grandTotal + tax;
