@@ -272,7 +272,7 @@ public class ORDER extends javax.swing.JFrame {
             }
         }
 
-        // --- Frappe Order ---
+        // --- tea Order ---
         String frappeOrderStr = jTextField3.getText();
         String frappeQtyStr = jTextField4.getText();
 
